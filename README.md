@@ -1,106 +1,254 @@
-🚀 InterviewIQ AI
-AI-Powered Interview Preparation & Career Guidance Platform
+# 🚀 InterviewIQ AI
 
-InterviewIQ AI is an intelligent interview preparation platform designed to help students and job seekers improve their technical skills, communication ability, and interview confidence using Artificial Intelligence.
+<p align="center">
+  <b>AI-Powered Interview Preparation Platform</b>
+</p>
 
-The platform provides personalized interview practice, resume analysis, coding challenges, AI career guidance, and performance tracking to simulate real-world placement interviews.
+<p align="center">
+  Prepare smarter, practice better, and crack your dream job interviews with AI assistance.
+</p>
 
-🌟 Features
-🤖 AI Mock Interview
-Role-based interview simulations
-AI-generated technical and HR questions
-Real-time feedback on answers
-Performance scoring
-📄 Resume Analyzer
-Upload resume and get AI feedback
-Identify missing skills
-Resume improvement suggestions
-ATS compatibility analysis
-💻 Coding Arena
-Practice coding problems
-Track coding performance
-Improve DSA skills
-Placement-focused challenges
-🧠 AI Career Coach
-Personalized career recommendations
-Skill improvement roadmap
-Job preparation guidance
-Learning suggestions
-📊 Analytics Dashboard
-Track interview progress
-View strengths and weaknesses
-Performance visualization
-Preparation insights
-🔔 Notification System
-Interview reminders
-Learning updates
-Practice suggestions
-🛠️ Tech Stack
-Frontend
-React.js
-Vite
-React Router
-HTML5
-CSS3
-JavaScript
-Framer Motion
-Recharts
-Backend
-Python
-FastAPI
-REST APIs
-AI / ML
-Natural Language Processing
-Generative AI
-Resume Analysis Models
-AI Feedback System
-Database
-MongoDB / PostgreSQL
-Tools
-Git & GitHub
-VS Code
-Postman
-InterviewIQ-AI/
+---
+
+## 📌 About The Project
+
+**InterviewIQ AI** is an AI-powered interview preparation platform designed to help students and job seekers improve their technical knowledge, coding skills, resume quality, and interview confidence.
+
+The platform provides AI-based mock interviews, resume analysis, coding practice, career guidance, and performance tracking in one place.
+
+The goal of InterviewIQ AI is to bridge the gap between academic learning and industry requirements by providing personalized preparation support.
+
+---
+
+# ✨ Features
+
+## 🤖 AI Mock Interview
+- Simulated technical and HR interviews
+- AI-generated interview questions
+- Answer evaluation and feedback
+- Performance improvement suggestions
+
+## 📄 Resume Analyzer
+- Upload your resume
+- Analyze resume quality
+- Identify missing skills
+- Get improvement recommendations
+
+## 💻 Coding Arena
+- Practice programming problems
+- Improve Data Structures & Algorithms skills
+- Track coding progress
+- Placement-focused preparation
+
+## 🧠 AI Career Coach
+- Personalized career guidance
+- Skill improvement roadmap
+- Technology recommendations
+- Interview preparation tips
+
+## 📊 Performance Dashboard
+- Track preparation progress
+- View analytics
+- Monitor strengths and weaknesses
+
+## 🔔 Notifications
+- Interview reminders
+- Learning updates
+- Practice suggestions
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Framer Motion
+- Recharts
+
+## Backend
+
+- Python
+- FastAPI
+- REST API
+
+## AI / ML
+
+- Natural Language Processing
+- Generative AI
+- Resume Analysis
+- AI Feedback System
+
+## Database
+
+- MongoDB / PostgreSQL
+
+## Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
+
+---
+
+# 📂 Project Structure
+
+```text
+InterviewIQ_AI/
+
 │
 ├── frontend/
+│   │
 │   ├── public/
+│   │
 │   ├── src/
 │   │   ├── assets/
 │   │   ├── components/
 │   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── ResumeAnalyzer.jsx
+│   │   │
 │   │   ├── App.jsx
-│   │   └── main.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── backend/
+│   │
 │   ├── app/
+│   │   ├── routes/
+│   │   ├── models/
+│   │   └── services/
+│   │
 │   ├── main.py
 │   └── requirements.txt
 │
 ├── README.md
-└── LICENSE
+└── .gitignore
+```
 
+---
+
+# ⚙️ Installation & Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Anusha891995/InterviewIQ_AI.git
+```
+
+---
+
+# Frontend Setup
+
+Navigate to frontend:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
 
+Run development server:
+
+```bash
 npm run dev
-Backend Setup
+```
+
+Frontend runs at:
+
+```
+http://localhost:5173/
+```
+
+---
+
+# Backend Setup
+
+Navigate to backend:
+
+```bash
 cd backend
+```
 
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+Run FastAPI server:
+
+```bash
 uvicorn main:app --reload
-🔮 Future Enhancements
-🎤 Voice-based AI interview
-👁️ Facial expression analysis
-🌐 Multi-language interview support
-📱 Mobile application
-🏢 Company-specific interview preparation
-AI-powered LinkedIn profile analyzer
-🎯 Objective
+```
 
-The main goal of InterviewIQ AI is to bridge the gap between academic learning and industry requirements by providing students with an intelligent platform to practice, analyze, and improve their interview performance.
+Backend runs at:
 
-👩‍💻 Developed By
+```
+http://127.0.0.1:8000/
+```
 
-Anusha
+---
+
+# 📸 Screenshots
+
+(Add your project screenshots here)
+
+Example:
+
+```
+screenshots/
+│
+├── home.png
+├── dashboard.png
+├── resume-analyzer.png
+└── mock-interview.png
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- 🎤 Voice-based AI Interview
+- 👁️ Facial expression analysis
+- 🌎 Multi-language interview support
+- 📱 Mobile application
+- 🏢 Company-specific interview preparation
+- 🔗 LinkedIn profile analyzer
+- 📈 Advanced AI performance analytics
+
+---
+
+# 🎯 Project Objective
+
+The objective of InterviewIQ AI is to create an intelligent career preparation assistant that helps students practice interviews, improve skills, and become job-ready through AI-driven feedback.
+
+---
+
+# 👩‍💻 Developer
+
+**Anusha**
 
 B.Tech Computer Science Student
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
