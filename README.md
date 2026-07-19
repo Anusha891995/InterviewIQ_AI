@@ -60,31 +60,24 @@ Tools
 Git & GitHub
 VS Code
 Postman
-📂 Project Structure
-InterviewIQ-AI
+InterviewIQ-AI/
 │
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── assets
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │
-├── backend
-│   ├── app
-│   ├── routes
-│   ├── models
-│   └── main.py
+├── backend/
+│   ├── app/
+│   ├── main.py
+│   └── requirements.txt
 │
 ├── README.md
-├── package.json
-└── requirements.txt
-⚙️ Installation
-Clone Repository
-git clone https://github.com/yourusername/InterviewIQ-AI.git
-Frontend Setup
-cd frontend
+└── LICENSE
 
 npm install
 
